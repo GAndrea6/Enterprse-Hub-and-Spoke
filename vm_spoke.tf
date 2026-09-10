@@ -50,7 +50,7 @@ resource "azurerm_linux_virtual_machine" "vm_spoke" {
   location            = azurerm_resource_group.rg.location
   size                = "Standard_B1s" # Taglia economica per lab/test
   admin_username      = "azureuser"
-  admin_password      = "P@ssw0rd12345!" 
+  admin_password      = "P@ssw0rd12345!"
 
   disable_password_authentication = false
 
